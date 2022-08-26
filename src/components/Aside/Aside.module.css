@@ -1,0 +1,33 @@
+.aside {
+    background-color: #0D262D;
+    width: 20%;
+	margin: 0; padding: 0;
+	float: left;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+
+.linha {
+    text-decoration: none;
+    list-style: none;
+}
+
+.item {
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;
+}
