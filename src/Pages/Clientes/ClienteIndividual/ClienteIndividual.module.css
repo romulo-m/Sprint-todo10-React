@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 5px;
+    border: 1px solid black;
+}
