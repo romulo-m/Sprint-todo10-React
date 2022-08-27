@@ -3,7 +3,7 @@
 Projeto sprint do módulo 5 da Resília Educação;
 <br>
 
-##Desafio:
+### Desafio:
 Baseado no desafio do processo seletivo da vaga de front da Venture Labs
 O desafio da semana consiste na criação de um web app simples usando React.js.
 A aplicação deve conter menu lateral com dois itens ( '+ Cadastrar' e 'Clientes' ).
@@ -13,4 +13,4 @@ A aplicação deve conter menu lateral com dois itens ( '+ Cadastrar' e 'Cliente
 visualizar os dados ao clicar na linha.
 <br>
 
-#em andamento..
+# em andamento..
