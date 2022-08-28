@@ -6,7 +6,7 @@ import Aside from './components/Aside/Aside'
 import Clientes from './Pages/Clientes/Clientes'
 import Cadastrar from './Pages/Cadastrar/Cadastrar'
 
-function App() {
+function App(props) {
   
   return (
     <BrowserRouter>

@@ -14,13 +14,14 @@
 
 .fieldset {
     background-color: #c6c6c6;
-    width: 100%;
+    width: 500px;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-weight: 700;
 }
 
 .fieldset > label, input {
@@ -40,5 +41,6 @@
     padding: 10px;
     background-color: #c6c6c6;
     cursor: pointer;
+    font-weight: 700;
 }
 

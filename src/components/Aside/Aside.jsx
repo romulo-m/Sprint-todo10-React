@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import S from './Aside.module.css'
 
-const Aside = () => {
+const Aside = (props) => {
   return (
     <aside className={S.aside}>
         <nav className={S.nav}>

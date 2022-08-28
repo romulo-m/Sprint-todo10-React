@@ -1,11 +1,13 @@
 .header {
     height: 70px;
     background-color: #808080;
+    box-shadow: var(--shadow);
 }
 
 
 .header > h1 {
-    text-align: center;
+    text-align: start;
     padding: 10px;
+    margin-left: 50px;
     font-size: 25px;
 }

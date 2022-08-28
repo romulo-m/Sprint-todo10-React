@@ -11,7 +11,8 @@ const Clientes = () => {
     <div className={S.container}>
       <h2>Lista de Clientes</h2>
       <div className={S.cards}>
-        {clientes.map((cliente, index) => {
+        { clientes.length > 0 ?
+        clientes.map((cliente, index) => {
           return (
             <ClienteIndividual
             key={index}
@@ -26,8 +27,8 @@ const Clientes = () => {
             cpf={cliente.cpf}
             renda={cliente.renda}
             />
-          )
-        })}
+          ) 
+        }): <h3>Ainda não tem nada aqui...</h3>} 
       </div>      
     </div>
   )

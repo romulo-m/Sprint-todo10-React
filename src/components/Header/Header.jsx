@@ -4,7 +4,7 @@ import S from './Header.module.css'
 const Header = () => {
   return (
     <header className={S.header}>
-        <h1>Formulário de clientes</h1>
+        <h1>Ventura Labs</h1>
     </header>
   )
 }
